@@ -1,1 +1,23 @@
+# Ambiente e Segredos
 .env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store
+
+# Build
+dist/
+build/
+*.egg-info/
